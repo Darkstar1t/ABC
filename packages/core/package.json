@@ -1,0 +1,27 @@
+{
+  "name": "@serverless-stack/core",
+  "version": "0.9.12",
+  "homepage": "https://serverless-stack.com",
+  "description": "Core of Serverless Stack.",
+  "main": "index.js",
+  "author": {
+    "name": "Anomaly Innovations",
+    "url": "https://anoma.ly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serverless-stack/serverless-stack.git",
+    "directory": "packages/core"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.761.0",
+    "chalk": "^4.1.0",
+    "log4js": "^6.3.0",
+    "sst-cdk": "1.91.0-rc.1"
+  },
+  "gitHead": "ef4db05a8b92a136204e65a70474ab529e55dbe6"
+}
