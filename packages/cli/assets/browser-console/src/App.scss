@@ -1,0 +1,33 @@
+@import '~bootstrap/scss/functions';
+@import './sass/variables.scss';
+
+.App {
+  display:flex;
+  flex-direction:column;
+  height: 100vh;
+}
+.App > nav {
+  flex: 0 0 auto;
+}
+.App > .panels {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+
+  & > div {
+    flex: 1;
+    min-width: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-sizing: border-box;
+
+    &:first-child {
+      border-right: 1px solid $gray-800;
+    }
+    &:last-child {
+      padding: $spacer;
+    }
+  }
+}
