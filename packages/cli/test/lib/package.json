@@ -1,0 +1,8 @@
+{
+  "name": "@serverless-stack/cli-test-lib",
+  "private": true,
+  "description": "tests",
+  "version": "0.51.1",
+  "scripts": {},
+  "license": "ISC"
+}
